@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University web portal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="contact-header">
+      <nav>
+        <a href="index.html "> <img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate and Online program for 2025</h1>
+    </section>
+    <!--blog session-->
+    <section class="blog-content">
+      <div class="menus">
+        <div class="Blog-left">
+          <img src="images/certificate.jpg" alt="" />
+          <h2>Our Certificate and Online program for 2025</h2>
+          <p>
+            Kerala University, officially known as the University of Kerala, is
+            a prominent university located in Thiruvananthapuram, the capital
+            city of Kerala, India. Established in 1937, it is one of the oldest
+            universities in India and has played a significant role in the
+            development of higher education in the state. The university offers
+            a wide range of undergraduate, postgraduate, and doctoral programs
+            across various disciplines, including arts, science, commerce, law,
+            and technology.<br> <p>It is known for its diverse academic environment,
+            with a strong emphasis on research and innovation. Kerala University
+            is also recognized for its beautiful campus, which is adorned with
+            lush greenery and scenic landscapes. The university is equipped with
+            modern facilities, including well-stocked libraries, laboratories,
+            and sports complexes, providing students with a conducive
+            environment for learning and personal development. </p>The university
+            has several affiliated colleges spread across the state,
+            contributing to its mission of making higher education accessible to
+            a broader audience. Additionally, it has established collaborations
+            with various national and international institutions, promoting
+            academic exchange and research initiatives. Overall, Kerala
+            University stands as a center of excellence in education, fostering
+            knowledge and skills among students while encouraging them to
+            contribute to society. More about Kerala University? How to apply
+            there?
+          </p>
+        </div>
+        <div class="blog-right">
+          <h3>POST CATEGORIES</h3>
+          <div>
+            <span>Buisness Analytics</span>
+
+          </div>
+          <div>
+          
+            <span>Data Science </span>
+            
+          </div>
+          <div>
+            <span>machine Learning</span>
+            
+          </div>
+          <div>
+            <span>computer Science</span>
+            
+          </div>
+          <div>
+            <span>journalism</span>
+            
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h4>Blog</h4>
+      <p>
+        Hai am gokul a web develoer <br />its just a practise session for my
+        career.I am a passionate and motivated web developer with foundational
+        knowledge<br />
+        in both front and back development. Having recently completed courses in
+        PHP
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linked-in"></i>
+      </div>
+    </footer>
+
+    <!--javas cript for toggle-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

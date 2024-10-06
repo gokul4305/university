@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University web portal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="contact-header">
+      <nav>
+        <a href="index.html "> <img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Course</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+    <main class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Master the art of creating stunning websites from scratch. This course
+        covers everything <br />
+        front-end development using HTML, CSS, and JavaScript to back-end
+        programming with <br />
+        PHP and MySQL. By the end, you'll have the skills to responsive<br />
+        dynamic websites that cater to both desktop and mobile users.
+      </p>
+      <div class="menu">
+        <div class="menu-1">
+          <h3>Web Development</h3>
+          <p>
+            Master the art of creating stunning websites from scratch. This
+            course covers everything from front-end development using HTML, CSS,
+            and JavaScript to back-end programming with PHP and MySQL. By the
+            end
+          </p>
+          </div>
+          <div class="menu-1">
+            <h3>PHP Programming</h3>
+            <p>
+              Learn the fundamentals of PHP, one of the most widely used server-side scripting languages for web development. This course will guide you through everything from setting up your environment 
+            </p>
+            </div>
+            <div class="menu-1">
+              <h3>JavaScript</h3>
+              <p>
+                Elevate your web development skills by learning advanced JavaScript techniques, including ES6 features, asynchronous programming, and working with APIs. This course is designed for developers 
+              </p>
+              </div>
+         </div>
+      </div>
+    </main>
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        When considering college facilities, there are several key areas that
+        contribute to a positive academic experience.When choosing a college,
+        it's beneficial to visit and evaluate these facilities to see how they
+        align with your academic and extracurricular needs. Rare books,
+        historical manuscripts, and archives, often related to specific fields
+        of study or regional history.
+      </p>
+
+      <div class="menu">
+        <div class="facilities-col">
+          <img src="images/library.png" alt="" />
+          <h3>World class Library</h3>
+          <p>
+            Well-stocked with books, journals, and digital resources.Study
+            rooms, computer labs, and quiet areas for research and study. Rare
+            books, historical manuscripts, and archives, often related to
+            specific fields of study or regional history.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" alt="" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            The court can be indoor or outdoor, typically with hardwood flooring
+            indoors and concrete or asphalt outdoors. The basketball court is
+            part of the college’s sports infrastructure, used for recreational
+            or competitive basketball
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" alt="" />
+          <h3>Tasty and healthy Food</h3>
+          <p>
+            The cafeteria is the social hub where students gather to eat, relax,
+            and socialize between classes. It offers a variety of food and
+            beverages, often catering to different dietary preferences.enjoy
+            always
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h4>Our Courses</h4>
+      <p>
+        Hai am gokul a web develoer <br />its just a practise session for my
+        career.I am a passionate and motivated web developer with foundational
+        knowledge<br />
+        in both front and back development. Having recently completed courses in
+        PHP
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linked-in"></i>
+      </div>
+    </footer>
+
+    <!--javas cript for toggle-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
